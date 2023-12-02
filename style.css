@@ -1,0 +1,270 @@
+*{
+        margin: 0%;
+        box-sizing: border-box;
+}
+
+.row::after{
+        content: "";
+        clear: both;
+}
+
+[class*=col-]{
+        /*padding: 15px;*/
+        float: left;
+}
+
+.col-1{
+        width: 8.33%;
+}
+.col-2{
+        width: 16.66%;
+}
+.col-3{
+        width: 25%;
+}
+.col-4{
+        width: 33.33%;
+}
+.col-5{
+        width: 41.66%;
+}
+.col-6{
+        width: 50%;
+}
+.col-7{
+        width: 58.33%;
+}
+.col-8{
+        width: 66.66%;
+}
+.col-9{
+        width: 75%;
+}
+.col-10{
+        width: 83.33%;
+}
+.col-11{
+        width: 91.66%;
+}
+.col-12{
+        width: 100%;
+}
+
+.title{
+        color: black;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5vmin;
+        padding-left: 1.5em;
+        font-family: sans-serif;
+}
+
+.button{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5vmin;
+        font-family: sans-serif;
+}
+
+/*.header{
+        font-family: sans-serif;
+        color: white;
+        font-size: 6vmin;
+        letter-spacing: 0.5vmin;
+        position: relative;
+        margin-left: 4vmin;
+        transform: translate(0vmin,-10vmin);
+}*/
+
+#header{
+        background-color: white;
+        width: 100%;
+        box-shadow: 0vmin 0.3vmin 1vmin rgb(157, 157, 157);
+}
+
+#logo{
+        width: 100%;
+        height: auto;
+}
+
+/*.lo{
+        background-image: url(b.jpg);
+        width: 100%;
+        height: auto;
+}*/
+
+.a-title{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 6vmin;
+        margin-top: 12vmin;
+        letter-spacing: 0.5vmin;
+}
+
+.t0{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 3vmin;
+        margin-top: 8vmin;
+        letter-spacing: 1vmin;
+}
+
+.paragraph{
+        font-family: sans-serif;
+        font-size: 2.8vmin;
+        margin-top: 4vmin;
+        line-height: 4vmin;
+}
+
+.paragraph0{
+        font-family: sans-serif;
+        font-size: 2.8vmin;
+        color: rgb(131, 125, 125);
+        line-height: 4vmin;
+        margin-bottom: 23vmin;
+}
+
+.desert{
+        width: 80%;
+        height: auto;
+        opacity: 80%;
+        margin-top: 10vmin;
+}
+
+.picture{
+        text-align: center;
+        margin-bottom: 10vmin;
+}
+
+.line{
+        width: 90%;
+        color: rgb(131,125, 125);
+        margin: auto;
+}
+
+.m-title{
+        
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 6vmin;
+        letter-spacing: 0.5vmin;
+        margin-top: 15vmin;
+}
+
+.name{
+        font-family: sans-serif;
+        font-size: 3vmin;
+        margin-top: 8vmin;
+        letter-spacing: 0.5vmin;
+        margin-left: 15vmin;
+}
+
+.description{
+        font-family: sans-serif;
+        font-size: 2.5vmin;
+        margin-top: 2.8vmin;
+        color: rgb(131,125, 125);
+        margin-left: 15vmin;
+}
+
+.menu{
+        width: 80%;
+        height: auto;
+        opacity: 80%;
+        margin-top: 12vmin;
+}
+
+.picture0{
+        text-align: center;
+        margin-bottom: 10vmin;
+}
+
+.c-title{
+        
+        text-align:left;
+        font-family: sans-serif;
+        font-size: 6vmin;
+        letter-spacing: 0.5vmin;
+        margin-top: 15vmin;
+        margin-left: 15vmin;
+}
+
+.paragraph1{
+        text-align:left;
+        font-family: sans-serif;
+        margin-left: 15vmin;
+        line-height: 4vmin;
+        font-size: 2.2vmin;
+}
+
+.m{
+        margin-top: 8vmin;
+}
+
+.paragraph2{
+        color: rgb(89, 77, 156);
+        text-align:left;
+        font-family: sans-serif;
+        margin-left: 15vmin;
+        margin-top: 3vmin;
+        font-size: 2.5vmin;
+}
+
+.s{
+        margin-top: 3vmin;
+        margin-bottom: 2vmin;
+}
+
+.input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 85%;
+        margin-left: 15vmin;
+        padding-left: 2vmin;
+        border-color: rgb(131,125, 125);
+        padding-top: 3vmin;
+        padding-bottom: 3vmin;
+        margin-top: 2vmin;
+        font-family: sans-serif;
+        font-size: 2vmin;
+}
+
+.send{
+        font-family: sans-serif;
+        margin-left: 15vmin;
+        margin-top: 5vmin;
+        background-color: rgb(223, 217, 217);
+        padding: 2vmin;
+        border: none;
+        font-size: 2.3vmin;
+        margin-bottom: 10vmin;
+}
+
+.footer{
+        background-color: rgb(223, 217, 217);
+        height: 10vmin;
+}
+
+.l{
+        width: 100%;
+        margin: auto;
+}
+
+@media(max-width: 850px){
+        .desert{
+                display: none;
+        }
+        .text{
+                width: 100%;
+        }
+        .menu1{
+                width: 100%;
+        }
+        .picture0{
+                width: 100%;
+        }
+}
